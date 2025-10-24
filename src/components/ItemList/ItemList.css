@@ -1,0 +1,19 @@
+.item-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: stretch; /* fuerza las cards al mismo alto */
+  padding: 2rem;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item-list-grid a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "id": "1",
+    "name": "Dulce Navidad",
+    "price": 25000,
+    "category": "Disco de Estudio",
+    "description": "Dulce Navidad es el álbum debut de la banda argentina de Punk rock Attaque 77, publicado en 1989 por Radio Trípoli Discos",
+    "imageUrl": "/images/1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Amateur",
+    "price": 30000,
+    "category": "Compilado",
+    "description": "Amateur es un álbum de compilaciones y rarezas de Attaque 77, lanzado en mayo de 2002.",
+    "imageUrl": "/images/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Solo Covers!",
+    "category": "En Vivo",
+    "price": 25000,
+    "description": "Sólo Covers! es el cuarto álbum en vivo de Attaque 77, grabado el 27 de julio de 2012 en el Teatro Vorterix. El disco fue editado en CD/DVD.",
+    "imageUrl": "/images/3.jpg"
+  },
+   {
+    "id": "4",
+    "name": "Rabioso! la pesadilla recién comienza",
+    "category": "En vivo",
+    "price": 12200,
+    "description": "Rabioso! La Pesadilla Recién Comienza es el primer álbum en vivo.",
+    "imageUrl": "/images/4.jpg"
+  },
+   {
+    "id": "5",
+    "name": "Ángeles caídos",
+    "category": "Disco de Estudio",
+    "price": 45000,
+    "description": "Hojaldre 100% manteca, crujiente por fuera y tierno por dentro.",
+    "imageUrl": "/images/5.jpg"
+  },
+   {
+    "id": "6",
+    "name": "Sesiones Pandémicas",
+    "category": "En vivo",
+    "price": 14200,
+    "description": "Sesiones pandémicas es un disco más o menos en vivo. Es el registro de un streaming.",
+    "imageUrl": "/images/6.jpg"
+  },
+   {
+    "id": "7",
+    "name": "Amén!",
+    "category": "Disco de Estudio",
+    "price": 10000,
+    "description": "Amén! es el quinto álbum de estudio de la banda argentina de punk rock Attaque 77, editado en 1995.",
+    "imageUrl": "/images/7.jpg"
+  },
+   {
+    "id": "8",
+    "name": "Radio Insomnio",
+    "category": "Disco de Estudio",
+    "price": 1200,
+    "description": "Es el octavo álbum de estudio de Attaque 77, editado en 2000, mezclado en los Estados Unidos.",
+    "imageUrl": "/images/8.jpg"
+  },
+   {
+    "id": "9",
+    "name": "Otras Canciones",
+    "category": "Disco de Estudio",
+    "price": 18200,
+    "description": "Otras canciones es el séptimo álbum de estudio de Attaque 77.",
+    "imageUrl": "/images/9.jpg"
+  },
+   {
+    "id": "10",
+    "name": "Estallar",
+    "category": "Disco de Estudio",
+    "price": 41200,
+    "description": "Estallar es el undécimo álbum del grupo argentino Attaque 77, cuyo lanzamiento fue el 3 de noviembre de 2009 y el 24 de noviembre en CD/DVD",
+    "imageUrl": "/images/10.jpg"
+  },
+   {
+    "id": "11",
+    "name": "Obras Cumbres",
+    "category": "Álbum recopilatorio",
+    "price": 13200,
+    "description": "Obras cumbres es un álbum recopilatorio de la banda argentina Attaque 77. ",
+    "imageUrl": "/images/11.jpg"
+  },
+   {
+    "id": "12",
+    "name": "89/92",
+    "category": "En vivo",
+    "price": 1200,
+    "description": "89/92 es un álbum compilatorio de Attaque 77 que fue editado en 1992. Resume lo mejor de la banda desde 1989 a 1992.",
+    "imageUrl": "/images/12.jpg"
+  },
+   {
+    "id": "13",
+    "name": "El cielo puede esperar",
+    "category": "Disco de Estudio",
+    "price": 12200,
+    "description": "El Cielo Puede Esperar es el segundo álbum de estudio de la banda argentina de Punk rock Attaque 77, publicado en 1990 por Radio Trípoli.",
+    "imageUrl": "/images/13.jpg"
+  },
+   {
+    "id": "14",
+    "name": "Pirotecnia autorizada",
+    "category": "EP",
+    "price": 18200,
+    "description": "Pirotecnia autorizada es el primer EP de la banda Attaque 77, lanzado en el año 2006 y difundido como un adelanto de Karmagedon (2007).",
+    "imageUrl": "/images/15.jpg"
+  },
+   {
+    "id": "15",
+    "name": "Karmagedon",
+    "category": "Disco de Estudio",
+    "price": 18200,
+    "description": "Karmagedón es el décimo álbum del grupo de rock argentino Attaque 77, lanzado el 20 de marzo del año 2007.",
+    "imageUrl": "/images/14.jpg"
+  },
+   {
+    "id": "16",
+    "name": "Todo está al revés",
+    "category": "Disco de Estudio",
+    "price": 1200,
+    "description": "Todo está al revés es el cuarto álbum de estudio de Attaque 77. Fue publicado a comienzos de 1994.",
+    "imageUrl": "/images/16.jpg"
+  },
+   {
+    "id": "17",
+    "name": "Un día perfecto (U.D.P)",
+    "category": "Disco de Estudio",
+    "price": 12200,
+    "description": "Un día perfecto es el sexto álbum de estudio de la banda argentina Attaque 77.",
+    "imageUrl": "/images/17.jpg"
+  },
+   {
+    "id": "18",
+    "name": "Antihumano",
+    "category": "Disco de Estudio",
+    "price": 13200,
+    "description": "Antihumano es el noveno álbum de estudio del grupo musical de Argentina Attaque 77, publicado en noviembre de 2003 por el sello discográfico BMG Ariola.",
+    "imageUrl": "/images/18.jpg"
+  },
+   {
+    "id": "19",
+    "name": "Caña!",
+    "category": "Álbum recopilatorio",
+    "price": 12200,
+    "description": "Caña es un álbum recopilatorio de Attaque 77 que sólo se comercializa en España y países de Europa.",
+    "imageUrl": "/images/19.jpg"
+  },
+   {
+    "id": "20",
+    "name": "Triángulo de Fuerza Volumen 1",
+    "category": "EP",
+    "price": 12200,
+    "description": "Triángulo de Fuerza Volumen 1 es el segundo EP de la banda Attaque 77, lanzado en el año 2016 y difundido como un adelanto de Triángulo de Fuerza.",
+    "imageUrl": "/images/20.jpg"
+  },
+   {
+    "id": "21",
+    "name": "Trapos",
+    "category": "En vivo",
+    "price": 123200,
+    "description": "Trapos es el nombre del segundo álbum en vivo de la banda. Fue grabado en vivo en el Estadio Obras Sanitarias, en Buenos Aires, Argentina, los días 21 y 28 de abril del año 2001.",
+    "imageUrl": "/images/21.jpg"
+  },
+   {
+    "id": "22",
+    "name": "Nuevas Versiones",
+    "category": "Disco de Estudio",
+    "price": 34200,
+    "description": "Nuevas Versiones es un álbum de estudio que fue publicado en 2014. Cuenta con 10 nuevas versiones de canciones que forman parte de los álbumes más antiguos de la banda.",
+    "imageUrl": "/images/22.jpg"
+  },
+   {
+    "id": "23",
+    "name": "Triángulo de fuerza",
+    "category": "Disco de Estudio",
+    "price": 12300,
+    "description": "Triángulo de fuerza es un álbum de estudio de Attaque 77 que fue publicado en 2019.",
+    "imageUrl": "/images/23.jpg"
+  },
+   {
+    "id": "24",
+    "name": "Ángeles caídos en vivo - Obras (1992)",
+    "category": "En vivo",
+    "price": 12200,
+    "description": "Ángeles caídos en vivo en obras es un CD editado por la banda argentina de Punk rock, Attaque 77.",
+    "imageUrl": "/images/24.jpg"
+  },
+   {
+    "id": "25",
+    "name": "Acústico en Teatro Ópera",
+    "category": "En vivo",
+    "price": 12200,
+    "description": "Acústico en el Teatro Opera es el tercer álbum en vivo y el primer acústico de la banda argentina, Attaque 77, registrado en el Teatro Opera Citi en noviembre de 2011",
+    "imageUrl": "/images/25.jpg"
+  }
+
+]
