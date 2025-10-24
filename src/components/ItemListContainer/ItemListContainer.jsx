@@ -1,32 +1,37 @@
 import { useState, useEffect } from "react";
 import "./ItemListContainer.css";
-import { ItemList } from "../ItemList/ITemList";
+import { ItemList } from "../ItemList/ItemList";
 
-export const ItemListContainer = () => {
-const [products, setProducts] = useState([])
+export const ItemListContainer = ({ type }) => {
+  const [products, setProducts] = useState([]);
 
-useEffect(() =>{
+  useEffect(() => {
     fetch("/data/products.json")
-    .then((res) => {
-        if(!res.ok){
-            throw new Error("Hubo un error al buscar un producto");
-        }
+      .then((res) => {
+        if (!res.ok) throw new Error("Hubo un error al buscar productos");
         return res.json();
+      })
+      .then((data) => {
+        if (type) {
+          const filtered = data.filter(
+            (prod) => prod.type.toLowerCase() === type.toLowerCase()
+          );
+          setProducts(filtered);
+        } else {
+          setProducts(data);
+        }
+      })
+      .catch((err) => console.log(err));
+  }, [type]);
 
-    })
-    .then((data) => {
-        setProducts(data)
-    })
-    .catch((err) => {
-        console.log(err)
-    })
-} ,[])
-
-    return(
-       <section className="item-list-section">
-            <h1>Bienvenidos</h1>
-            <ItemList list={products} />
-        </section>
-
-    )
+  return (
+    <section className="item-list-section">
+      <h1>
+        {type
+          ? `Catálogo de ${type.charAt(0).toUpperCase() + type.slice(1)}s`
+          : "Bienvenidos"}
+      </h1>
+      <ItemList list={products} />
+    </section>
+  );
 };

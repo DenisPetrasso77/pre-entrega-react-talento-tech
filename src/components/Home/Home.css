@@ -1,0 +1,22 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  background-color: #111;
+  color: #fff;
+  padding: 2rem;
+}
+
+.home-content {
+  max-width: 800px;
+}
+
+.home-banner {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}

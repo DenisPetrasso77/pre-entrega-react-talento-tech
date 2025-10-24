@@ -1,32 +1,23 @@
 import { Link } from "react-router-dom";
-import {useCartContext} from "../../context/CartContext/useCartContext"
-import "./Nav.css"
-
+import { useCartContext } from "../../context/CartContext/useCartContext";
+import "./Nav.css";
 
 export const Nav = () => {
+  const { getTotalItems } = useCartContext();
 
-const { getTotalItems } = useCartContext();
-
-
-    return (
+  return (
     <nav>
-        <ul>
-            <li>
-                <Link to={"/"}>Home</Link>
-            </li>
-            <li>
-                <Link to={"/"}>Discos</Link>
-            </li>
-            <li>
-                <Link to={"/"}>Remeras</Link>
-            </li>
-            <li>
-                <Link>Carrito</Link>
-               {getTotalItems() > 0 && (
-                <span className="in-cart">{getTotalItems()}</span>
-                )}
-            </li>
-        </ul>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/discos">Discos</Link></li>
+        <li><Link to="/remeras">Remeras</Link></li>
+        <li>
+          <Link to="/carrito">Carrito</Link>
+          {getTotalItems() > 0 && (
+            <span className="in-cart">{getTotalItems()}</span>
+          )}
+        </li>
+      </ul>
     </nav>
-    );
+  );
 };
