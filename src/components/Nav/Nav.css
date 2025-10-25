@@ -1,40 +1,56 @@
-
-/* ✅ Agregá esto para que el contenido no quede debajo de la nav */
 body {
   margin: 0;
-  padding-top: 80px; /* ajustá según la altura del nav */
-  background-color: #1e1e1e; /* el mismo fondo oscuro del resto */
+  padding-top: 90px; /* 🔧 Subí este valor hasta que el contenido quede justo debajo del nav */
+  background-color: #1e1e1e;
 }
 
-nav {
-  background: #343a40;
-  padding: 1rem 2rem;
-  width: 100%;
-  position: fixed;       /* la fija arriba */
+
+.navbar {
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;         /* la mantiene encima del resto */
-  box-sizing: border-box;
+  width: 100%;
+  background: #343a40;
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
-nav ul {
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+}
+
+
+.nav-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none; /* se muestra solo en móvil */
+}
+
+/* Enlaces principales */
+.nav-links {
   list-style: none;
   display: flex;
   gap: 2rem;
-  align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 0.8rem 0;
 }
 
-nav a {
-  color: white;
+.nav-links a {
   text-decoration: none;
+  color: white;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-nav a:hover {
+.nav-links a:hover {
   color: #00b4d8;
 }
 
@@ -44,32 +60,34 @@ nav a:hover {
   border-radius: 50%;
   padding: 0.3rem 0.6rem;
   font-size: 0.8rem;
-  margin-left: 0.4rem;
+  margin-left: 0.3rem;
 }
+
+/* 📱 Responsive */
 @media (max-width: 768px) {
-  nav ul {
-    flex-wrap: wrap;
-    gap: 1rem;
+  .nav-toggle {
+    display: block;
   }
 
-  nav a {
-    font-size: 0.95rem;
-  }
-
-  body {
-    padding-top: 70px;
-  }
-}
-
-@media (max-width: 480px) {
-  nav ul {
+  .nav-links {
+    display: none;
     flex-direction: column;
-    gap: 0.6rem;
+    align-items: center;
+    background: #343a40;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem 0;
   }
 
-  nav a {
-    font-size: 0.9rem;
+  .nav-links.active {
+    display: flex;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 }
-
-
