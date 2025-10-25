@@ -46,4 +46,30 @@ nav a:hover {
   font-size: 0.8rem;
   margin-left: 0.4rem;
 }
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+}
+
 

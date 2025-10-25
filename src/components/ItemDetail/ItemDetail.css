@@ -102,3 +102,52 @@
   position: relative;
   bottom: auto;
 }
+
+@media (max-width: 768px) {
+  .item-detail {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  .item-detail img {
+    max-width: 300px;
+  }
+
+  .item-detail h2 {
+    font-size: 1.6rem;
+  }
+
+  .item-detail .price {
+    font-size: 1.1rem;
+  }
+
+  .item-detail .description {
+    font-size: 0.95rem;
+  }
+
+  .item-detail button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-detail img {
+    max-width: 240px;
+  }
+
+  .item-detail h2 {
+    font-size: 1.4rem;
+  }
+
+  .item-detail .description {
+    font-size: 0.9rem;
+  }
+
+  .item-detail button {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
+
