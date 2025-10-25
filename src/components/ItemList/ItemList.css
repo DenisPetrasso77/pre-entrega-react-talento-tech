@@ -17,3 +17,31 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 768px) {
+  .item-list-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-list-grid a {
+    display: block;
+    width: 100%;
+  }
+
+  .product-item {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    flex: none;
+  }
+
+  .product-title {
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    word-break: break-word;
+  }
+}
+
